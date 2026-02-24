@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# But keep these:
+!Internship_Material/
+!Internship_Material/Task 1.ipynb
+!Internship_Material/Iris.csv
+!.gitignore
+!README.md
