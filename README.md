@@ -1,7 +1,7 @@
 # Iris Dataset – Exploratory Data Analysis & Classification
 
 This project explores the classic **Iris flower dataset** using Python and Jupyter Notebook.  
-The goal is to understand how sepal and petal measurements differ across species and to build a simple model that can predict the species of an iris flower from these features. [web:61][web:116]
+The goal is to understand how sepal and petal measurements differ across species and to build a simple model that can predict the species of an iris flower from these features. 
 
 ---
 
@@ -11,16 +11,16 @@ The Iris dataset contains **150 samples** of iris flowers from three species:
 
 - *Iris-setosa*
 - *Iris-versicolor*
-- *Iris-virginica* [web:61][web:116]
+- *Iris-virginica* 
 
 For each flower, four numeric features are recorded:
 
 - Sepal length (cm)
 - Sepal width (cm)
 - Petal length (cm)
-- Petal width (cm) [web:61]
+- Petal width (cm) 
 
-No missing values were found, and the dataset is **balanced** with 50 samples per species. [web:131]
+No missing values were found, and the dataset is **balanced** with 50 samples per species. 
 
 ---
 
@@ -36,26 +36,26 @@ No missing values were found, and the dataset is **balanced** with 50 samples pe
    - Performed basic sanity checks for unusual values/outliers.
 
 3. **Exploratory Data Analysis (EDA)**  
-   - Histograms to inspect distributions of sepal and petal measurements. [web:66]  
-   - Boxplots to compare features across species and highlight outliers. [web:69]  
-   - Scatter plots and pairplots to visualize relationships between features and species separation. [web:62][web:113]
+   - Histograms to inspect distributions of sepal and petal measurements.  
+   - Boxplots to compare features across species and highlight outliers.   
+   - Scatter plots and pairplots to visualize relationships between features and species separation.
 
 4. **Model training & evaluation**  
-   - Framed the task as a **multi‑class classification** problem with `Species` as the target. [web:116]  
-   - Split the data into training and test sets. [web:87]  
-   - Trained a simple baseline classifier (e.g., Logistic Regression / k‑NN). [web:84][web:128]  
+   - Framed the task as a **multi‑class classification** problem with `Species` as the target.   
+   - Split the data into training and test sets.  
+   - Trained a simple baseline classifier (e.g., Logistic Regression / k‑NN). 
    - Evaluated performance using:
      - Accuracy score  
      - Confusion matrix  
-     - Classification report (precision, recall, F1-score) [web:97]
+     - Classification report (precision, recall, F1-score)
 
 ---
 
 ## 🔍 Key Insights
 
-- **Petal measurements** (length and width) clearly separate the three species and show strong positive relationships: as petal length increases, petal width tends to increase as well. [web:62][web:113]  
-- **Iris-setosa** forms a well-separated cluster with much smaller petal measurements, while *versicolor* and *virginica* overlap more but are still distinguishable in petal feature space. [web:61][web:110]  
-- Sepal features alone provide weaker separation, but combined with petal features they support robust classification. [web:62]
+- **Petal measurements** (length and width) clearly separate the three species and show strong positive relationships: as petal length increases, petal width tends to increase as well.   
+- **Iris-setosa** forms a well-separated cluster with much smaller petal measurements, while *versicolor* and *virginica* overlap more but are still distinguishable in petal feature space.   
+- Sepal features alone provide weaker separation, but combined with petal features they support robust classification. 
 
 The baseline classification model achieved **high accuracy** on the test set, with only a small number of misclassifications between *versicolor* and *virginica*.
 
@@ -67,7 +67,7 @@ The baseline classification model achieved **high accuracy** on the test set, wi
 - Jupyter Notebook  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
-- scikit-learn [web:98]
+- scikit-learn 
 
 ---
 
@@ -80,6 +80,6 @@ The baseline classification model achieved **high accuracy** on the test set, wi
 
 ## 🚀 Possible Extensions
 
-- Try alternative classifiers (k‑NN, SVM, decision trees) and compare performance. [web:132][web:133]  
+- Try alternative classifiers (k‑NN, SVM, decision trees) and compare performance.  
 - Perform feature importance analysis to quantify which measurements contribute most to predictions.  
-- Experiment with dimensionality reduction (e.g., PCA) for 2D/3D visualizations of the feature space. [web:129]
+- Experiment with dimensionality reduction (e.g., PCA) for 2D/3D visualizations of the feature space. 
